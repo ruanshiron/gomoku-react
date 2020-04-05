@@ -1,5 +1,6 @@
 # 五目並べ
-Demo [https://ruanshiron.github.io/gomoku-react](https://ruanshiron.github.io/gomoku-react)
+[**Demo**](https://ruanshiron.github.io/gomoku-react/)
+
 ![gomoku-react](https://i.imgur.com/oNGkEZv.png)
 ## チーム６
 |名前|学生番号|
