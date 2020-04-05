@@ -1,10 +1,11 @@
 import React from 'react'
+import './Square.css'
 
-function Square(props) {
+function Square({onClick, disabled, mark}) {
   return (
-    <div>
-      
-    </div>
+    <button className="btn btn-board" onClick={onClick} disabled={disabled}>
+      <span className={mark === false? "x" : mark === true? "o" : ""}></span>
+    </button>
   )
 }
 
