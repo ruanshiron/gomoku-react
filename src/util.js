@@ -1,18 +1,18 @@
 function board(n) {
-  let r = []
-  for (let i = 0; i < n; i++) {
-    r.push(Array(n).fill(null))
+  let p = []
+  for (let j = 0; j < n; j++) {
+    p.push(Array(n).fill(null))
   }
-  return r
+  return p
 }
 
-function checker(board, criteria, [currentX, currentY], step) {
-  let current = board[currentX][currentY], count = 0, range = []
+function checker(board, criteria, [current_x, current_y], step) {
+  let current = board[current_x][current_y], count = 0, range = []
   
   for (let c = - criteria + 1; c < criteria; c++) range.push(c)
 
-  for (const c of range) {
-    const [i, j] = step(c)
+  for (const m of range) {
+    const [i, j] = step(m)
     
     if (board[i] !== undefined)
       if (board[i][j] !== undefined) {
