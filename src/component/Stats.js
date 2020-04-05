@@ -21,3 +21,5 @@ function Stats({data}) {
     </div>
   )
 }
+
+export default Stats
