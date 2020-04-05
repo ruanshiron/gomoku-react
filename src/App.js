@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Board from './Board'
-import Control, { OPTION } from './Control'
+import Board from './component/Board'
+import Control, { OPTION } from './component/Control'
 import { board, won } from './util'
-import WinnerModal from './WinnerModal'
-import Stats from './Stats'
+import WinnerModal from './component/WinnerModal'
+import Stats from './component/Stats'
 
 function App() {
   const [option, setOption] = useState(OPTION)
