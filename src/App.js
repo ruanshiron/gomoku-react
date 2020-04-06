@@ -30,7 +30,7 @@ function App() {
   }, [option])
 
   const handleReset = (newOption) => {
-    if (newOption!=null) setOption(newOption)
+    if (newOption!=null) setOption({...newOption})
     else setOption({...option})
   }
 
