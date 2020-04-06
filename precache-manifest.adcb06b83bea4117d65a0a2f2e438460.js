@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fdef5b64e17ea092bb7c5aed4eb9333",
+    "revision": "adc1e527a912aa3c5342c96c8ff2a00e",
     "url": "/gomoku-react/index.html"
   },
   {
-    "revision": "8d57c4a7d85b77db14ce",
+    "revision": "dbe6a25a833ed9311c06",
     "url": "/gomoku-react/static/css/main.7bfd2d39.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gomoku-react/static/js/2.8b79a195.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d57c4a7d85b77db14ce",
-    "url": "/gomoku-react/static/js/main.8e3d686f.chunk.js"
+    "revision": "dbe6a25a833ed9311c06",
+    "url": "/gomoku-react/static/js/main.ed58f4d4.chunk.js"
   },
   {
     "revision": "8d4f3e67032634106ee2",
